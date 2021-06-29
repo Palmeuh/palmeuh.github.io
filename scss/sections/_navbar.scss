@@ -1,0 +1,6 @@
+@use '../components/mixins.scss' as *;
+@use '../custom' as *;
+
+.navbar {
+  @include gradientBackgroundPrimary;
+}

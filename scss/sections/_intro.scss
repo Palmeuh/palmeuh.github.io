@@ -1,0 +1,26 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.intro {
+  @include gradientBackgroundPrimary;
+  padding-top: 5rem;
+}
+
+.linkBoxContainer {
+  padding: 1rem;
+
+  .linkContainer {
+    // border: 1px solid black;
+    // border-radius: 1rem;
+    color: black;
+    text-align: center;
+
+    &:hover {
+      @include gradientBackgroundSecondary;
+    }
+
+    i {
+      font-size: 4rem;
+    }
+  }
+}

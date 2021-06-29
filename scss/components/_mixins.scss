@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+@mixin gradientBackgroundPrimary {
+  background: rgb(179, 155, 200);
+  background: linear-gradient(90deg, #379683 0%, #5cdb95 100%);
+}
+
+@mixin gradientBackgroundSecondary {
+  background: rgb(161, 195, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(161, 195, 209, 1) 0%,
+    rgba(179, 155, 200, 1) 100%
+  );
+}
+
+@mixin hoverButton {
+}

@@ -1,0 +1,8 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+.experience {
+  h1 {
+    padding: 2rem 0;
+  }
+}
