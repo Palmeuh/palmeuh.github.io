@@ -1,0 +1,50 @@
+@use '../custom' as *;
+@use '../components/mixins.scss' as *;
+
+footer {
+  @include gradientBackgroundFooter;
+  padding: 1rem;
+
+  hr {
+    color: #338877;
+  }
+
+  .footerRow {
+    padding-top: 1rem;
+    a {
+      text-decoration: none;
+      color: #282828;
+
+      i {
+        font-size: 3rem;
+      }
+      .bi-envelope {
+        color: rgb(209, 209, 209);
+        &:hover {
+          color: rgb(146, 146, 146);
+        }
+      }
+
+      .bi-github {
+        color: rgb(19, 19, 19);
+        &:hover {
+          color: rgb(53, 53, 53);
+        }
+      }
+
+      .bi-youtube {
+        color: #ff0000;
+        &:hover {
+          color: #c50000;
+        }
+      }
+
+      .bi-linkedin {
+        color: #0075b5;
+        &:hover {
+          color: #005a8a;
+        }
+      }
+    }
+  }
+}

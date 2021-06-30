@@ -6,3 +6,11 @@
     padding: 2rem 0;
   }
 }
+
+.experienceRow {
+  padding-top: 0rem;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 3rem;
+  }
+}

@@ -5,6 +5,11 @@
   background: linear-gradient(90deg, #379683 0%, #5cdb95 100%);
 }
 
+@mixin gradientBackgroundFooter {
+  background: rgb(179, 155, 200);
+  background: linear-gradient(90deg, #338877 0%, #4db97e 100%);
+}
+
 @mixin gradientBackgroundSecondary {
   background: rgb(161, 195, 209);
   background: linear-gradient(

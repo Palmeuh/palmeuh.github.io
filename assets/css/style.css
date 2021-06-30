@@ -10758,7 +10758,12 @@ body {
 .intro {
   background: #b39bc8;
   background: linear-gradient(90deg, #379683 0%, #5cdb95 100%);
-  padding-top: 5rem;
+  padding-top: 3rem;
+}
+@media (min-width: 576px) {
+  .intro {
+    padding-top: 5rem;
+  }
 }
 
 .linkBoxContainer {
@@ -10782,8 +10787,13 @@ body {
 }
 
 .projectRow {
-  padding-top: 3rem;
+  padding-top: 0rem;
   padding-bottom: 3rem;
+}
+@media (min-width: 576px) {
+  .projectRow {
+    padding-top: 3rem;
+  }
 }
 
 .imageContainer {
@@ -10804,6 +10814,58 @@ body {
 
 .experience h1 {
   padding: 2rem 0;
+}
+
+.experienceRow {
+  padding-top: 0rem;
+}
+@media (min-width: 576px) {
+  .experienceRow {
+    padding-top: 3rem;
+  }
+}
+
+footer {
+  background: #b39bc8;
+  background: linear-gradient(90deg, #338877 0%, #4db97e 100%);
+  padding: 1rem;
+}
+footer hr {
+  color: #338877;
+}
+footer .footerRow {
+  padding-top: 1rem;
+}
+footer .footerRow a {
+  text-decoration: none;
+  color: #282828;
+}
+footer .footerRow a i {
+  font-size: 3rem;
+}
+footer .footerRow a .bi-envelope {
+  color: #d1d1d1;
+}
+footer .footerRow a .bi-envelope:hover {
+  color: #929292;
+}
+footer .footerRow a .bi-github {
+  color: #131313;
+}
+footer .footerRow a .bi-github:hover {
+  color: #353535;
+}
+footer .footerRow a .bi-youtube {
+  color: #ff0000;
+}
+footer .footerRow a .bi-youtube:hover {
+  color: #c50000;
+}
+footer .footerRow a .bi-linkedin {
+  color: #0075b5;
+}
+footer .footerRow a .bi-linkedin:hover {
+  color: #005a8a;
 }
 
 /*# sourceMappingURL=style.css.map */
