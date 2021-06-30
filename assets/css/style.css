@@ -10765,6 +10765,9 @@ body {
     padding-top: 5rem;
   }
 }
+.intro svg {
+  transform: translate(0, 0.4px);
+}
 
 .linkBoxContainer {
   padding: 1rem;
@@ -10785,6 +10788,9 @@ body {
   background: #b39bc8;
   background: linear-gradient(90deg, #379683 0%, #5cdb95 100%);
   padding-bottom: 3rem;
+}
+.projects svg {
+  transform: translate(0, -0.4px);
 }
 
 .projectRow {

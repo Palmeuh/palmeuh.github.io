@@ -8,6 +8,10 @@
   @include media-breakpoint-up(sm) {
     padding-top: 5rem;
   }
+
+  svg {
+    transform: translate(0, 0.4px);
+  }
 }
 
 .linkBoxContainer {

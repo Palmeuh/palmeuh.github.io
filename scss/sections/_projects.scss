@@ -4,6 +4,10 @@
 .projects {
   @include gradientBackgroundPrimary;
   padding-bottom: 3rem;
+
+  svg {
+    transform: translate(0, -0.4px);
+  }
 }
 
 .projectRow {
