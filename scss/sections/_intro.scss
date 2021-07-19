@@ -5,6 +5,8 @@
   @include gradientBackgroundPrimary;
   padding-top: 3rem;
 
+  text-align: center;
+
   @include media-breakpoint-up(sm) {
     padding-top: 5rem;
   }
@@ -14,21 +16,13 @@
   }
 }
 
-.linkBoxContainer {
-  padding: 1rem;
-
-  .linkContainer {
-    // border: 1px solid black;
-    // border-radius: 1rem;
-    color: black;
-    text-align: center;
-
-    &:hover {
-      @include gradientBackgroundSecondary;
-    }
-
-    i {
-      font-size: 4rem;
-    }
+.welcomeContainer {
+  padding-bottom: 1rem;
+  // background-color: $light;
+  border-radius: 2rem;
+  img {
+    width: 10rem;
+    // border: 0.325rem solid rgba($primary, 1);
+    border-radius: 5rem;
   }
 }

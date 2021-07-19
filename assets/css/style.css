@@ -10750,6 +10750,30 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.headline {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.secondaryHeadline {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.paragraphBig {
+  font-size: 1.25rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+}
+
+.secondaryElement {
+  font-size: 0.875;
+}
+
 .navbar {
   background: #b39bc8;
   background: linear-gradient(90deg, #379683 0%, #5cdb95 100%);
@@ -10759,6 +10783,7 @@ body {
   background: #b39bc8;
   background: linear-gradient(90deg, #379683 0%, #5cdb95 100%);
   padding-top: 3rem;
+  text-align: center;
 }
 @media (min-width: 576px) {
   .intro {
@@ -10769,19 +10794,13 @@ body {
   transform: translate(0, 0.4px);
 }
 
-.linkBoxContainer {
-  padding: 1rem;
+.welcomeContainer {
+  padding-bottom: 1rem;
+  border-radius: 2rem;
 }
-.linkBoxContainer .linkContainer {
-  color: black;
-  text-align: center;
-}
-.linkBoxContainer .linkContainer:hover {
-  background: #a1c3d1;
-  background: linear-gradient(90deg, #a1c3d1 0%, #b39bc8 100%);
-}
-.linkBoxContainer .linkContainer i {
-  font-size: 4rem;
+.welcomeContainer img {
+  width: 10rem;
+  border-radius: 5rem;
 }
 
 .projects {
@@ -10796,6 +10815,12 @@ body {
 .projectRow {
   padding-top: 0rem;
   padding-bottom: 3rem;
+}
+.projectRow div h3 {
+  padding: 1rem 0rem;
+}
+.projectRow div p {
+  text-align: justify;
 }
 @media (min-width: 576px) {
   .projectRow {
@@ -10821,6 +10846,11 @@ body {
 
 .modal-body .modalContainer {
   height: 18rem;
+  text-align: center;
+}
+.modal-body .modalContainer i {
+  font-size: 7rem;
+  color: red;
 }
 .modal-body .modalContainer iframe {
   border-radius: 1rem;
@@ -10857,7 +10887,7 @@ footer .footerRow a {
   color: #282828;
 }
 footer .footerRow a i {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 footer .footerRow a .bi-envelope {
   color: #d1d1d1;
